@@ -24,9 +24,9 @@ def button_click_DL():
     download_txt_file(url, save_path)    
 
 app = tk.Tk()
-app.title("dsInfo")
+app.title("ds-info")
 app.resizable(width=False, height=False)
-app.minsize(width=200, height=100)
+app.minsize(width=250, height=150)
 
 #Label Title Combobox Server
 label_server_title = tk.Label(app, text="Server")
