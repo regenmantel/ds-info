@@ -11,6 +11,4 @@ def download_php_file(url, save_path):
 url = "http://www.die-staemme.de/backend/get_servers.php"
 save_path = "data/files/servers/servers.php"
 
-#if __name__ == "__main__":
 download_php_file(url, save_path)
-

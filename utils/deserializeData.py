@@ -15,6 +15,5 @@ deserialized_data = read_php_serialized_data(file_path)
 
 if isinstance(deserialized_data, dict):
     data_list = list(deserialized_data.items())
-    #print(data_list)
 else:
     print("The deserialized data is not a dictionary.")
